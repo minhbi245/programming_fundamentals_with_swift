@@ -6,7 +6,7 @@ let str = NSMutableAttributedString()
 let para = NSMutableParagraphStyle()
 
 para.headIndent = 10
-para.firstLineHeadIndent 10
+para.firstLineHeadIndent = 10
 
 str.addAttribute(.paragraphStyle,
                  value: para, range: NSRange(location: 0, length: 1))
