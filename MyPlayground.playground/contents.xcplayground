@@ -4,5 +4,8 @@
         <page name='Define-and-Call'/>
         <page name='function as value'/>
         <page name='Closure'/>
+        <page name='Closure Setting a Captured Variable'/>
+        <page name='Variables'/>
+        <page name='Closure Preversing Captured Environment'/>
     </pages>
 </playground>

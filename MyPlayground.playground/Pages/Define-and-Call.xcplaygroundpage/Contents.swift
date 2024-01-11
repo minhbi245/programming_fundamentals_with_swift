@@ -21,3 +21,10 @@ str.addAttribute(.paragraphStyle,
 }()
                  , range: NSRange(location: 0, length: 1))
 
+/*
+ syntax:
+ let x: DataType = {
+ 
+ return DataType
+ }()
+ */
