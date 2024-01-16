@@ -7,5 +7,7 @@
         <page name='Closure Setting a Captured Variable'/>
         <page name='Variables'/>
         <page name='Closure Preversing Captured Environment'/>
+        <page name='Varables Scope and Life Time'/>
+        <page name='Function Reference Scope'/>
     </pages>
 </playground>

@@ -8,7 +8,7 @@ var greeting = "Hello, playground"
 
 func countAdder(_ f: @escaping () -> ()) -> () -> () {
     var ct = 0
-    return { [weak self]
+    return {
         ct = ct + 1
         print("count is \(ct)")
         f()
