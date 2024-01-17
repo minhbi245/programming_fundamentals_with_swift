@@ -8,6 +8,7 @@
         <page name='Variables'/>
         <page name='Closure Preversing Captured Environment'/>
         <page name='Varables Scope and Life Time'/>
+        <page name='Computed Properties'/>
         <page name='Function Reference Scope'/>
     </pages>
 </playground>
