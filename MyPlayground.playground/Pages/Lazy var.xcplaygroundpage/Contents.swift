@@ -8,14 +8,14 @@ struct Person {
 }
 
 struct PeopleViewModel {
-    let people: [Person] = []
+    var people: [Person] = []
     
     lazy var oldest: Person? = {
         print("Lazy varr oldest initialized")
         return people.max(by: {$0.age < $1.age})
     }()
     
-    var youngest: Person? = {
+    lazy var youngest: Person? = {
         print("That's will be initialized")
         return people.min(by: {$0.age < $1.age})
     }()
@@ -32,8 +32,7 @@ var viewModel = PeopleViewModel(people: [
     Person(name: "Lady", age: 3),
     Person(name: "Maaike", age: 27)
 ])
-// Prints: "View model initialized"
 
-// print(viewModel.oldest)
-// Prints: "Lazy var oldest initialized"
-// Prints: Person(name: "Antoine", age: 30)
+if let people = viewModel.oldest { // variable oldest has already accessed that's variable initialize
+    print(people)
+}

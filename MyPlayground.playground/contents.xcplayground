@@ -11,5 +11,6 @@
         <page name='Computed Properties'/>
         <page name='Function Reference Scope'/>
         <page name='Lazy var'/>
+        <page name='Built-in Simple Types'/>
     </pages>
 </playground>
