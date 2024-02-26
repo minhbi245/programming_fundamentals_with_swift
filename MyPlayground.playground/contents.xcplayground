@@ -12,5 +12,7 @@
         <page name='Function Reference Scope'/>
         <page name='Lazy var'/>
         <page name='Built-in Simple Types'/>
+        <page name='Object Type Declarations'/>
+        <page name='Hello Properties'/>
     </pages>
 </playground>
